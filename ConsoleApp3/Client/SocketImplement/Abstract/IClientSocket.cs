@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PingPong.Server
+namespace PingPong.Client.SocketImplement.Abstract
 {
     public interface IClientSocket
     {

@@ -16,7 +16,7 @@ namespace PingPong.Server.Implemention
         }
 
         public void StartListening()
-        {
+        { 
             Socket.StartListening();
             string data = Socket.Receive();
             Socket.Send(Encoding.ASCII.GetBytes(data));

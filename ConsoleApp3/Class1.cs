@@ -29,7 +29,7 @@ namespace PingPong
             ClientSyncSocket clientSocket = new ClientSyncSocket(localEndPoint);
             PingPongClient pingPongClient = new PingPongClient(clientSocket, new ConsoleInput(), new ConsoleOutput());
 
-            tcpServer.StartListening();
+            tcpServer.StartListening(); 
             pingPongClient.StartClient();
         }
     }
